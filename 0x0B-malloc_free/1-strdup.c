@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-
 /**
- * _strup - duplicate to new memoty space location
+ * _strdup - duplicate to new memory space location
  * @str: char
  * Return: 0
  */
