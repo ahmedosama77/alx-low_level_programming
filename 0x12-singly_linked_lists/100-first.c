@@ -4,7 +4,7 @@
 void variable(void) __attribute__ ((constructor));
 
 /**
- * _constructor - executes before main()
+ * variable - executes before main()
  *
  * Return: void
  */
