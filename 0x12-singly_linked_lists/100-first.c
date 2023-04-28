@@ -1,16 +1,13 @@
 #include <stdio.h>
-#include "lists.h"
 
-void variable(void) __attribute__ ((constructor));
+void first(void) __attribute__ ((constructor));
 
 /**
- * variable - executes before main()
- *
- * Return: void
+ * first - prints a sentence before the main
+ * function is executed
  */
-
-void variable(void)
+void first(void)
 {
-	printf("You're beat! and yet. you must allow,\n"
-			"I bore my house upon my back!\n");
+ printf("You're beat! and yet, you must allow,\n"
+ 	"I bore my house upon my back!\n");
 }
