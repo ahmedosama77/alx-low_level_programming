@@ -28,7 +28,7 @@ listint_t *find_listint_loop_fl(listint_t *head)
 }
 
 /**
- * free_litint_safe - frees a listint list, even if it has a loop
+ * free_listint_safe - frees a listint list, even if it has a loop
  *
  * @h: head of list
  *
